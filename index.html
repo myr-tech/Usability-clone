@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media-query.css">
     <title>Usability Home</title>
   </head>
 
@@ -24,13 +25,16 @@
         <div class="nav-links">
           <ul class="flex">
             <li><a href="#" class="hover-link">Products</a></li>
-            <li><a href="#" class="hover-link"></a>Customer</li>
-            <li><a href="#" class="hover-link"></a>Pricing</li>
-            <li><a href="#" class="hover-link"></a>Resources</li>
+            <li><a href="#" class="hover-link">Customer</a></li>
+            <li><a href="#" class="hover-link">Pricing</a></li>
+            <li><a href="#" class="hover-link">Resources</a></li>
             <li><a href="#" class="hover-link secondary-button">Sign In</a></li>
             <li><a href="#" class="hover-link primary-button">Sign Up</a></li>
           </ul>
         </div>
+        <a href="#" class="nav-toggle hover-link">
+          <i class="fa-solid fa-bars"></i>
+        </a>
       </div>
     </nav>
     <!-- header -->
@@ -160,9 +164,7 @@
 
     <section class="big-feature-section">
       <div
-        class="container flex big-feature-container"
-        style="flex-direction: row-reverse"
-      >
+        class="container flex big-feature-container"id="second-big-feature" >
         <div class="feature-img">
           <img src="./assets/asset 21.png" alt="" />
         </div>
@@ -177,6 +179,7 @@
             voluptate, ipsa accusantium!
           </p>
         </div>
+        
       </div>
     </section>
     <section class="big-feature-section">
@@ -244,6 +247,8 @@
       </div>
       
     </section>
+
+    <!-- FOOTER -->
     <footer>
       <div class="container flex footer-container">
         <a href="" class="company-logo">
@@ -277,17 +282,43 @@
         </div>
       </div>
     </footer>
-    <div class="sub-footer">
+
+    <!-- SUB FOOTER -->
+    <div class=" flex sub-footer">
       <div class="container flex sub-footer-container">
         <a href="#" class="hover-link">Privacy policy</a>
         <a href="#"class="hover-link">Terms & conditions</a>
         <a href="#"class="hover-link">Security information</a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-youtube"></i></a>
       </div>
     </div>
+    <!-- <h3>Some Extra Animation icon for help in devlopment</h3> -->
+
+    <!--go to this link for more https://fontawesome.com/docs/web/style/animate -->
+    <!-- <div class="fa-3x">
+      <i class="fa-solid fa-compact-disc fa-flip"></i>
+      <i class="fa-solid fa-camera-rotate fa-flip"></i>
+      <i class="fa-solid fa-cassette-tape fa-flip"></i>
+      <i class="fa-solid fa-scroll fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;" ></i>
+      <i class="fa-solid fa-money-check-dollar fa-flip" style="--fa-animation-duration: 3s;" ></i>
+    </div> 
+    
+    <div class="fa-3x">
+      <i class="fa-solid fa-triangle-person-digging fa-beat-fade"></i>
+      <i class="fa-solid fa-square-exclamation fa-beat-fade"></i>
+      <i class="fa-solid fa-poo-bolt fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;" ></i>
+      <i class="fa-solid fa-circle-info fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i>
+    </div> -->
     <!-- <div class="spacer" style="height: 100vh"></div> -->
+
+<!-- Fontawesome Script -->
+
     <script
       src="https://kit.fontawesome.com/20d93bd64e.js"
       crossorigin="anonymous"
-    ></script>
+    ></script>     
   </body>
 </html>
